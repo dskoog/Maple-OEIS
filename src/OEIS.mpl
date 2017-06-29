@@ -43,7 +43,7 @@ OEIS := module()
 
     Search := proc()
         option cache;
-        local argsin, i, numresults, oeis_json, parsed_value, searchstring;
+        local argsin, i, j, numresults, oeis_json, parsed_value, searchstring;
         parsed_value := Array(1..0):
 
         if type( [ args ], 'list'('integer') ) = true and nargs < 6 or ( type( [ args ], 'list'('integer') ) = false and not type( args, 'string') ) then
@@ -106,7 +106,7 @@ OEIS := module()
 
         for i from 1 to numelems(vals) do
             if hastype( vals[i], {'DataSeries', 'table' }) then
-                oeis_ds(i) := :-convert( vals[i], DataSeries):
+                oeis_ds(i) := :-convert( vals[i], 'DataSeries'):
             elif hastype( vals[i], {'record' }) then
                 error "unable to print record form";
             else
