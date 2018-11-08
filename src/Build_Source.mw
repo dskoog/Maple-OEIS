@@ -181,6 +181,14 @@
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;OEIS.maple&quot;,&quot;X-CloudXId&quot;,&quot;137258&quot;):</Text-field>
 </Input>
 </Group>
+<Group hide-input="false" labelreference="L4345" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;OEIS.maple&quot;,&quot;X-CloudGroup&quot;,&quot;packages&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4344" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;OEIS.maple&quot;,&quot;X-CloudURL&quot;,&quot;https://maple.cloud&quot;):</Text-field>
+</Input>
+</Group>
 <Group labelreference="L4212" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>

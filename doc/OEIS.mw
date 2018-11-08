@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Worksheet>
-<Version major="2017" minor="1"/>
+<Version major="2018" minor="2"/>
 <Label-Scheme value="2" prefix=""/>
-<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
 <Hide name="Group Range"/>
 <Hide name="Table Borders"/>
 </View-Properties>
-<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="900" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="900" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="false"/>
 <Styles>
 <Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
@@ -105,17 +105,17 @@
 <Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Heading 1" layout="Heading 1" alignment="centred">Overview of the OEIS Package</Text-field>
 </Input>
-</Group></Presentation-Block><Table visible="true" exterior="all" pagebreak="cell" showlabel="true" title="" plotalignlists="" hiddenborderdisplay="worksheet" interior="none" postexecute="insert" drawcaption="false" drawtitle="false" width="50.0%" captionalignment="0" showinput="true" captionposition="1" id="Table3" alignment="center" randomized="false" labelreference="L1234" showgroup="true" order="row"><Table-Column weight="100" separator="true"></Table-Column><Table-Column weight="100" separator="true"></Table-Column><Table-Column weight="100.0" separator="true"></Table-Column><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[235,235,235]" rowspan="1" backgroundstyle="1" columnspan="3"><Presentation-Block>
+</Group></Presentation-Block><Table visible="true" editable="true" exterior="all" pagebreak="cell" showlabel="true" title="" plotalignlists="" hiddenborderdisplay="worksheet" interior="none" postexecute="insert" drawcaption="false" drawtitle="false" width="50.0%" captionalignment="0" showinput="true" captionposition="1" id="Table3" alignment="center" randomized="false" labelreference="L1234" showgroup="true" order="row"><Table-Column weight="100" separator="true"></Table-Column><Table-Column weight="100" separator="true"></Table-Column><Table-Column weight="100.0" separator="true"></Table-Column><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[235,235,235]" rowspan="1" backgroundstyle="1" columnspan="3"><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L1252" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal" alignment="centred"><Font size="12" underline="true" bold="true">Package Details</Font></Text-field>
 </Input>
 </Group></Presentation-Block></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Presentation-Block>
-<Group view="presentation" inline-output="false" labelreference="L1235" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal" alignment="right"><Font size="12">Date:</Font></Text-field>
+<Group view="presentation" inline-output="false" labelreference="L1269" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal" alignment="right"><Font size="12">Package ID:</Font></Text-field>
 </Input>
 </Group></Presentation-Block></Table-Cell><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="2"><Presentation-Block>
-<Group view="presentation" inline-output="false" labelreference="L1236" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal"><Font size="12">June 2017</Font></Text-field>
+<Group view="presentation" inline-output="false" labelreference="L1267" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">5693538177122304</Text-field>
 </Input>
 </Group></Presentation-Block></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L1237" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -172,7 +172,7 @@
 </Input>
 </Group></Presentation-Block>
 </Section>
-<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">List of OEIS Package Commands</Text-field></Title><Table visible="true" exterior="none" pagebreak="cell" showlabel="true" plotalignlists="" hiddenborderdisplay="worksheet" interior="group" postexecute="insert" drawcaption="false" width="100%" captionalignment="0" showinput="true" captionposition="1" id="Table2" alignment="left" randomized="false" labelreference="L1224" showgroup="true" order="row"><Table-Column weight="100" separator="false"></Table-Column><Table-Column weight="100" separator="false"></Table-Column><Table-Column weight="100" separator="false"></Table-Column><Table-Column weight="100" separator="false"></Table-Column><Table-Row align="top" separator="false"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Presentation-Block>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">List of OEIS Package Commands</Text-field></Title><Table visible="true" editable="true" exterior="none" pagebreak="cell" showlabel="true" plotalignlists="" hiddenborderdisplay="worksheet" interior="group" postexecute="insert" drawcaption="false" width="100%" captionalignment="0" showinput="true" captionposition="1" id="Table2" alignment="left" randomized="false" labelreference="L1224" showgroup="true" order="row"><Table-Column weight="100" separator="false"></Table-Column><Table-Column weight="100" separator="false"></Table-Column><Table-Column weight="100" separator="false"></Table-Column><Table-Column weight="100" separator="false"></Table-Column><Table-Row align="top" separator="false"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L1255" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal" alignment="centred"><Hyperlink linktarget="Help:OEIS,Get" hyperlink="true"><Font size="12" style="Hyperlink">Get</Font></Hyperlink></Text-field>
 </Input>
@@ -186,7 +186,7 @@
 </Input>
 </Group></Presentation-Block></Table-Cell><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L1257" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal" alignment="centred"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+<Input><Text-field style="Text" layout="Normal" alignment="centred"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
 </Input>
 </Group></Presentation-Block></Table-Cell></Table-Row></Table>
 </Section>
@@ -197,7 +197,7 @@
 </Group>
 </Section><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
 </Input>
 </Group></Presentation-Block>
 </Worksheet>
