@@ -9,3 +9,5 @@ To "install" this package and use it in Maple 2016 and below, copy the files in 
 
 To "install" this package into Maple 2017 and above, open the OEIS.maple file from the Maple-OEIS/install directory and run:
     PackageTools:-Install("this://",'overwrite'=true);
+
+Note that this code is no longer maintained.
